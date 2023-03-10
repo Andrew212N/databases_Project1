@@ -1,0 +1,5 @@
+TrainDate, TrainName, PremiumSeatsAvailable, GenSeatsAvailable, PremiumSeatsOccupied, GenSeatsOccupied
+2022-02-19, Orient Express,10,10,0,0
+2022-02-20, Flying Scottsman,8,5,2,5
+2022-02-21, Guwahati Express,7,6,3,4
+2022-02-21, Golden Chariot,6,3,4,7
