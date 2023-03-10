@@ -1,4 +1,4 @@
-PRAGMA foreign_keys=OFF;
+PRAGMA foreign_keys=ON;
 BEGIN TRANSACTION;
 CREATE TABLE Train(Train_number smallint not null, Train_name text, P_fair int, G_fair int, S_station text, D_station text, Available char(31), PRIMARY KEY (Train_name));
 INSERT INTO Train VALUES(1,'Orient Express',800,600,'Paris','Istanbul','Weekdays');
