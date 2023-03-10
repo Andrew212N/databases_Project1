@@ -2,7 +2,7 @@ PRAGMA foreign_keys=ON;
 BEGIN TRANSACTION;
 CREATE TABLE Train(Train_number smallint not null, Train_name text, P_fair int, G_fair int, S_station text, D_station text, Available char(31), PRIMARY KEY (Train_name));
 INSERT INTO Train VALUES(1,'Orient Express',800,600,'Paris','Istanbul','Weekdays');
-INSERT INTO Train VALUES(2,'Flying Scotsman',4000,3500,'Edinburgh','London','Friday, Saturday, Sunday');
+INSERT INTO Train VALUES(2,'Flying Scottsman',4000,3500,'Edinburgh','London','Friday, Saturday, Sunday');
 INSERT INTO Train VALUES(3,'Golden Arrow',980,860,'Victoria','Dover','Monday, Tuesday, Wednesday');
 INSERT INTO Train VALUES(4,'Golden Chariot',4300,3800,'Bangalore','Goa','Saturday, Sunday');
 INSERT INTO Train VALUES(5,'Maharaja Express',5980,4510,'Delhi','Mumbai','Wednesday, Thursday, Friday');
